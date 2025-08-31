@@ -7325,6 +7325,7 @@ static-hero-s4
   color: #365872;
 }
 
+
 /*--------------------------------------------------------------
 6.2 couple-section
 --------------------------------------------------------------*/
@@ -12243,12 +12244,18 @@ static-hero-s4
     font-size: 1.3333333333rem;
   }
 }
+
 #feedback {
-  color: #000 !important;        /* chữ đen rõ ràng */
-  opacity: 1 !important;         /* không bị trong suốt */
-  background-color: #fff !important; /* nền trắng */
-  font-weight: 400;              /* độ đậm bình thường, không nhạt */
+  color: #000 !important;
+  /* chữ đen rõ ràng */
+  opacity: 1 !important;
+  /* không bị trong suốt */
+  background-color: #fff !important;
+  /* nền trắng */
+  font-weight: 400;
+  /* độ đậm bình thường, không nhạt */
 }
+
 .wpo-blog-single-section .comment-respond form input,
 .wpo-blog-single-section .comment-respond form textarea {
   background-color: #fff;
