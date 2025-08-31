@@ -120,7 +120,7 @@ Version:        1.0.0
 /* } */
 /* 1.1	Theme Reset Style */
 html {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 :root {
@@ -130,7 +130,7 @@ html {
 body {
   font-family: "Muli";
   color: #848892;
-  background-color: #fff;
+  background-color: #BCCCDC;
   font-size: 15px;
   font-size: 1rem;
   overflow-x: hidden;
@@ -166,7 +166,7 @@ ul {
 
 a {
   text-decoration: none;
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 
 a:hover {
@@ -12244,7 +12244,12 @@ static-hero-s4
     font-size: 1.3333333333rem;
   }
 }
-
+#feedback {
+  color: #000 !important;        /* chữ đen rõ ràng */
+  opacity: 1 !important;         /* không bị trong suốt */
+  background-color: #fff !important; /* nền trắng */
+  font-weight: 400;              /* độ đậm bình thường, không nhạt */
+}
 .wpo-blog-single-section .comment-respond form input,
 .wpo-blog-single-section .comment-respond form textarea {
   background-color: #fff;
